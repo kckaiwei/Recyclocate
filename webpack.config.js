@@ -7,6 +7,10 @@ module.exports = {
     '@babel/polyfill', // enables async-await
     path.join(__dirname, 'App.js')
   ],
+  externals: {
+    'react-native': 'react-native',
+    'react-native-maps': 'react-native-maps'
+  },
   output: {
     path: __dirname,
     filename: './public/bundle.js'

@@ -1,8 +1,7 @@
 {
   "presets": [
-    "@babel/react",
-    "@babel/env",
-    "module:metro-react-native-babel-preset"
+    "@babel/preset-react",
+    "@babel/preset-env"
     /*
     Babel uses these "presets" to know how to transpile your Javascript code. Here's what we're saying with these:
 
@@ -25,6 +24,7 @@
         "legacy": true
       }
     ],
+    "@babel/plugin-transform-react-jsx-source",
     "@babel/plugin-proposal-function-sent",
     "@babel/plugin-proposal-export-namespace-from",
     "@babel/plugin-proposal-numeric-separator",
