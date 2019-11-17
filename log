@@ -1,0 +1,1484 @@
+
+> recyclocate@ start-dev /Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate
+> NODE_ENV='development' npm run build-client-watch
+
+
+> recyclocate@ build-client-watch /Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate
+> webpack -w
+
+
+webpack is watching the files…
+
+Hash: f6abc70f761549480d12
+Version: webpack 4.41.2
+Time: 2907ms
+Built at: 11/17/2019 11:24:33 AM
+                 Asset      Size  Chunks                   Chunk Names
+    ./public/bundle.js  2.06 MiB    main  [emitted]        main
+./public/bundle.js.map  1.93 MiB    main  [emitted] [dev]  main
+Entrypoint main = ./public/bundle.js ./public/bundle.js.map
+[0] multi @babel/polyfill ./App.js 40 bytes {main} [built]
+[./App.js] 662 bytes {main} [built]
+[./client/store/index.js] 548 bytes {main} [built]
+[./client/store/location.js] 2.67 KiB {main} [built]
+[./client/store/service.js] 2.64 KiB {main} [built]
+[./client/store/user.js] 2.22 KiB {main} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {main} [built]
+[./node_modules/webpack/buildin/harmony-module.js] (webpack)/buildin/harmony-module.js 573 bytes {main} [built]
+[./views/map-screen.js] 2.41 KiB {main} [built]
+    + 600 hidden modules
+
+ERROR in ./node_modules/react-native/Libraries/Animated/src/components/AnimatedImage.js
+Module not found: Error: Can't resolve '../../../Image/Image' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/Animated/src/components'
+ @ ./node_modules/react-native/Libraries/Animated/src/components/AnimatedImage.js 13:14-45
+ @ ./node_modules/react-native/Libraries/Animated/src/Animated.js
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Animated/src/Animated.js
+Module not found: Error: Can't resolve '../../Utilities/Platform' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/Animated/src'
+ @ ./node_modules/react-native/Libraries/Animated/src/Animated.js 13:0-48 15:31-39
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Components/AccessibilityInfo/AccessibilityInfo' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 20:11-71
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Components/CheckBox/CheckBox' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 32:11-53
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Components/DatePicker/DatePickerIOS' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 35:11-60
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Components/DatePickerAndroid/DatePickerAndroid' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 235:11-71
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Components/DrawerAndroid/DrawerLayoutAndroid' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 38:11-69
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Components/MaskedView/MaskedViewIOS' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 83:11-60
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Components/Picker/PickerIOS' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 92:11-52
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Components/ProgressBarAndroid/ProgressBarAndroid' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 95:11-73
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Components/ProgressViewIOS/ProgressViewIOS' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 98:11-67
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Components/SegmentedControlIOS/SegmentedControlIOS' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 110:11-75
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Components/StatusBar/StatusBarIOS' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 298:11-58
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Components/TimePickerAndroid/TimePickerAndroid' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 307:11-71
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Components/ToastAndroid/ToastAndroid' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 310:11-61
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Components/ToolbarAndroid/ToolbarAndroid' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 151:11-65
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Components/Touchable/TouchableNativeFeedback' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 160:11-69
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/DeprecatedPropTypes/DeprecatedViewPropTypes.js
+Module not found: Error: Can't resolve '../Components/View/PlatformViewPropTypes' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/DeprecatedPropTypes'
+ @ ./node_modules/react-native/Libraries/DeprecatedPropTypes/DeprecatedViewPropTypes.js 14:30-81
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Components/ViewPager/ViewPagerAndroid' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 178:11-62
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Components/WebView/WebView' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 190:11-51
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Image/Image' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 44:11-36
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../RCTTest/SnapshotViewIOS' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 122:11-48
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Settings/Settings' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 292:11-42
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Utilities/BackHandler' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 226:11-46
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Utilities/Platform' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 345:11-43
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+Module not found: Error: Can't resolve '../Vibration/VibrationIOS' in '/Users/rhiannon/fullstack-academy/grace-hopper-senior/recyclocate/node_modules/react-native/Libraries/react-native'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 328:11-47
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native-maps/lib/components/MapCircle.js 129:6
+Module parse failed: Unexpected token (129:6)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|     const AIRMapCircle = this.getAirComponent();
+|     return (
+>       <AIRMapCircle
+|         {...this.props}
+|         ref={ref => {
+ @ ./node_modules/react-native-maps/index.js 11:0-66 11:0-66
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableFlatList.js 12:12
+Module parse failed: Unexpected token (12:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| 'use strict';
+| 
+> import type {Props as FlatListProps} from '../../Lists/FlatList';
+| import type {renderItemType} from '../../Lists/VirtualizedList';
+| 
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 134:11-68
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/ReactNative/I18nManager.js 12:5
+Module parse failed: Unexpected token (12:5)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| 'use strict';
+| 
+> type I18nManagerStatus = {
+|   isRTL: boolean,
+|   doLeftAndRightSwapInRTL: boolean,
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 250:11-48
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Renderer/shims/ReactNative.js 13:12
+Module parse failed: Unexpected token (13:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| 'use strict';
+| 
+> import type {ReactNativeType} from './ReactNativeTypes';
+| 
+| let ReactNative;
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 247:11-51 319:11-51
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/ART/ReactNativeART.js 144:27
+Module parse failed: Unexpected token (144:27)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| 
+| class Surface extends React.Component {
+>   static childContextTypes = {
+|     isInSurface: PropTypes.bool,
+|   };
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 26:11-43
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native-maps/lib/components/MapPolyline.js 148:6
+Module parse failed: Unexpected token (148:6)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|     const AIRMapPolyline = this.getAirComponent();
+|     return (
+>       <AIRMapPolyline
+|         {...this.props}
+|         ref={ref => {
+ @ ./node_modules/react-native-maps/index.js 9:0-70 9:0-70
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Color/normalizeColor.js 14:29
+Module parse failed: Unexpected token (14:29)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| 'use strict';
+| 
+> function normalizeColor(color: string | number): ?number {
+|   const matchers = getMatchers();
+|   let match;
+ @ ./node_modules/react-native/Libraries/DeprecatedPropTypes/DeprecatedColorPropType.js 12:23-57
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Image/ImageEditor.js 14:5
+Module parse failed: Unexpected token (14:5)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const RCTImageEditingManager = require('../BatchedBridge/NativeModules').ImageEditingManager;
+| 
+> type ImageCropData = {
+|   /**
+|    * The top-left corner of the cropped image, specified in the original
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 50:11-42
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native-maps/lib/components/MapPolygon.js 156:6
+Module parse failed: Unexpected token (156:6)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|     const AIRMapPolygon = this.getAirComponent();
+|     return (
+>       <AIRMapPolygon
+|         {...this.props}
+|         ref={ref => {
+ @ ./node_modules/react-native-maps/index.js 10:0-68 10:0-68
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/YellowBox/YellowBox.js 15:12
+Module parse failed: Unexpected token (15:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const React = require('react');
+| 
+> import type {Category} from './Data/YellowBoxCategory';
+| import type {Registry, Subscription} from './Data/YellowBoxRegistry';
+| 
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 331:11-44
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/SafeAreaView/SafeAreaView.js 15:12
+Module parse failed: Unexpected token (15:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const View = require('../View/View');
+| 
+> import type {ViewProps} from '../View/ViewPropTypes';
+| 
+| type Props = $ReadOnly<{|
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 101:11-61
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Utilities/warnOnce.js 15:16
+Module parse failed: Unexpected token (15:16)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const warning = require('fbjs/lib/warning');
+| 
+> const warnedKeys: {[string]: boolean} = {};
+| 
+| /**
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 14:17-49
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/PermissionsAndroid/PermissionsAndroid.js 15:5
+Module parse failed: Unexpected token (15:5)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const NativeModules = require('../BatchedBridge/NativeModules');
+| 
+> type Rationale = {
+|   title: string,
+|   message: string,
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 283:11-62
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/EventEmitter/RCTDeviceEventEmitter.js 16:12
+Module parse failed: Unexpected token (16:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const EventSubscriptionVendor = require('../vendor/emitter/EventSubscriptionVendor');
+| 
+> import type EmitterSubscription from '../vendor/emitter/EmitterSubscription';
+| 
+| function checkNativeEventModule(eventType: ?string) {
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 336:11-59
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Interaction/PanResponder.js 16:12
+Module parse failed: Unexpected token (16:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const TouchHistoryMath = require('./TouchHistoryMath');
+| 
+> import type {PressEvent} from '../Types/CoreEventTypes';
+| 
+| const currentCentroidXOfTouchesChangedAfter =
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 280:11-49
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/CameraRoll/ImagePickerIOS.js 16:36
+Module parse failed: Unexpected token (16:36)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| 
+| const ImagePickerIOS = {
+>   canRecordVideos: function(callback: Function) {
+|     return RCTImagePicker.canRecordVideos(callback);
+|   },
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 253:11-50
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/DeprecatedPropTypes/DeprecatedStyleSheetPropType.js 16:43
+Module parse failed: Unexpected token (16:43)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const flattenStyle = require('../StyleSheet/flattenStyle');
+| 
+> function DeprecatedStyleSheetPropType(shape: {
+|   [key: string]: ReactPropsCheckType,
+| }): ReactPropsCheckType {
+ @ ./node_modules/react-native/Libraries/DeprecatedPropTypes/DeprecatedViewPropTypes.js 16:37-78
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/LayoutAnimation/LayoutAnimation.js 16:5
+Module parse failed: Unexpected token (16:5)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const UIManager = require('../ReactNative/UIManager');
+| 
+> type Type =
+|   | 'spring'
+|   | 'linear'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 262:11-56
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Lists/SectionList.js 17:12
+Module parse failed: Unexpected token (17:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const VirtualizedSectionList = require('./VirtualizedSectionList');
+| 
+> import type {ViewToken} from './ViewabilityHelper';
+| import type {Props as VirtualizedSectionListProps} from './VirtualizedSectionList';
+| 
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 107:11-42
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/BatchedBridge/NativeModules.js 17:12
+Module parse failed: Unexpected token (17:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const invariant = require('invariant');
+| 
+> import type {ExtendedError} from '../Core/Devtools/parseErrorStack';
+| 
+| type ModuleConfig = [
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 342:11-52
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Alert/Alert.js 17:7
+Module parse failed: Unexpected token (17:7)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const Platform = require('../Utilities/Platform');
+| 
+> export type Buttons = Array<{
+|   text?: string,
+|   onPress?: ?Function,
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 198:11-36 205:11-36
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/Switch/Switch.js 18:12
+Module parse failed: Unexpected token (18:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const StyleSheet = require('../../StyleSheet/StyleSheet');
+| 
+> import type {SwitchChangeEvent} from '../../Types/CoreEventTypes';
+| import type {ColorValue} from '../../StyleSheet/StyleSheetTypes';
+| import type {ViewProps} from '../View/ViewPropTypes';
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 125:11-49
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/StyleSheet/StyleSheet.js 18:12
+Module parse failed: Unexpected token (18:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const flatten = require('./flattenStyle');
+| 
+> import type {
+|   ____Styles_Internal,
+|   ____DangerouslyImpreciseStyle_Internal,
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 301:11-46
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/StyleSheet/processColor.js 18:27
+Module parse failed: Unexpected token (18:27)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| 
+| /* eslint no-bitwise: 0 */
+> function processColor(color?: ?(string | number)): ?number {
+|   if (color === undefined || color === null) {
+|     return color;
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 348:11-48
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Image/ImageStore.js 18:43
+Module parse failed: Unexpected token (18:43)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const warnOnce = require('../Utilities/warnOnce');
+| 
+> function warnUnimplementedMethod(methodName: string): void {
+|   warnOnce(
+|     `imagestore-${methodName}`,
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 60:11-41
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableListView.js 18:5
+Module parse failed: Unexpected token (18:5)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const SwipeableRow = require('./SwipeableRow');
+| 
+> type ListViewProps = React.ElementConfig<typeof ListView>;
+| 
+| type Props = $ReadOnly<{|
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 142:11-68
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/DeprecatedPropTypes/DeprecatedTransformPropTypes.js 18:7
+Module parse failed: Unexpected token (18:7)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| 
+| const TransformMatrixPropType = function(
+>   props: Object,
+|   propName: string,
+|   componentName: string,
+ @ ./node_modules/react-native/Libraries/DeprecatedPropTypes/DeprecatedViewStylePropTypes.js 17:37-78
+ @ ./node_modules/react-native/Libraries/DeprecatedPropTypes/DeprecatedViewPropTypes.js
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/TextInput/InputAccessoryView.js 19:12
+Module parse failed: Unexpected token (19:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const RCTInputAccessoryViewNativeComponent = require('./RCTInputAccessoryViewNativeComponent');
+| 
+> import type {ViewStyleProp} from '../../StyleSheet/StyleSheet';
+| 
+| /**
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 63:11-64
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/Slider/Slider.js 19:12
+Module parse failed: Unexpected token (19:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const StyleSheet = require('../../StyleSheet/StyleSheet');
+| 
+> import type {ImageSource} from '../../Image/ImageSource';
+| import type {ViewStyleProp} from '../../StyleSheet/StyleSheet';
+| import type {ColorValue} from '../../StyleSheet/StyleSheetTypes';
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 119:11-49
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/Picker/Picker.js 19:12
+Module parse failed: Unexpected token (19:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const UnimplementedView = require('../UnimplementedViews/UnimplementedView');
+| 
+> import type {TextStyleProp} from '../../StyleSheet/StyleSheet';
+| import type {ColorValue} from '../../StyleSheet/StyleSheetTypes';
+| 
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 89:11-49
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/EventEmitter/NativeEventEmitter.js 19:12
+Module parse failed: Unexpected token (19:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const invariant = require('invariant');
+| 
+> import type EmitterSubscription from '../vendor/emitter/EmitterSubscription';
+| 
+| type NativeModule = {
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 268:11-56
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/View/View.js 19:12
+Module parse failed: Unexpected token (19:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const invariant = require('invariant');
+| 
+> import type {ViewProps} from './ViewPropTypes';
+| 
+| export type Props = ViewProps;
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 169:11-45
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Animated/src/createAnimatedComponent.js 19:42
+Module parse failed: Unexpected token (19:42)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const invariant = require('invariant');
+| 
+> function createAnimatedComponent(Component: any, defaultProps: any): any {
+|   invariant(
+|     typeof Component !== 'function' ||
+ @ ./node_modules/react-native/Libraries/Animated/src/components/AnimatedFlatList.js 15:32-69
+ @ ./node_modules/react-native/Libraries/Animated/src/Animated.js
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/ActivityIndicator/ActivityIndicator.js 20:12
+Module parse failed: Unexpected token (20:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const RCTActivityIndicatorViewNativeComponent = require('./RCTActivityIndicatorViewNativeComponent');
+| 
+> import type {NativeComponent} from '../../Renderer/shims/ReactNative';
+| import type {ViewProps} from '../View/ViewPropTypes';
+| 
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 23:11-71
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/Keyboard/KeyboardAvoidingView.js 20:12
+Module parse failed: Unexpected token (20:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const View = require('../View/View');
+| 
+> import type EmitterSubscription from '../../vendor/emitter/EmitterSubscription';
+| import type {ViewStyleProp} from '../../StyleSheet/StyleSheet';
+| import type {ViewProps, ViewLayout, ViewLayoutEvent} from '../View/ViewPropTypes';
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 66:11-65
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Share/Share.js 20:5
+Module parse failed: Unexpected token (20:5)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const {ActionSheetManager, ShareModule} = require('../BatchedBridge/NativeModules');
+| 
+> type Content =
+|   | {title?: string, message: string}
+|   | {title?: string, url: string};
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 295:11-36
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/Keyboard/Keyboard.js 20:7
+Module parse failed: Unexpected token (20:7)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const KeyboardEventEmitter = new NativeEventEmitter(KeyboardObserver);
+| 
+> export type KeyboardEventName =
+|   | 'keyboardWillShow'
+|   | 'keyboardDidShow'
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 259:11-53
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Lists/FlatList.js 21:12
+Module parse failed: Unexpected token (21:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const invariant = require('invariant');
+| 
+> import type {ViewStyleProp} from '../StyleSheet/StyleSheet';
+| import type {
+|   ViewabilityConfig,
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 41:11-39
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/RefreshControl/RefreshControl.js 21:12
+Module parse failed: Unexpected token (21:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const nullthrows = require('nullthrows');
+| 
+> import type {ColorValue} from '../../StyleSheet/StyleSheetTypes';
+| import type {ViewProps} from '../View/ViewPropTypes';
+| 
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 128:11-65
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Interaction/InteractionManager.js 21:5
+Module parse failed: Unexpected token (21:5)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const keyMirror = require('fbjs/lib/keyMirror');
+| 
+> type Handle = number;
+| import type {Task} from './TaskQueue';
+| 
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 256:11-55
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Animated/src/AnimatedMock.js 22:12
+Module parse failed: Unexpected token (22:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const createAnimatedComponent = require('./createAnimatedComponent');
+| 
+> import type {EndCallback} from './animations/Animation';
+| import type {TimingAnimationConfig} from './animations/TimingAnimation';
+| import type {DecayAnimationConfig} from './animations/DecayAnimation';
+ @ ./node_modules/react-native/Libraries/Animated/src/Animated.js 16:4-29
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Network/NetInfo.js 22:5
+Module parse failed: Unexpected token (22:5)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const DEVICE_CONNECTIVITY_EVENT = 'networkStatusDidChange';
+| 
+> type ChangeEventName = $Enum<{
+|   connectionChange: string,
+|   change: string,
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 277:11-40
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/ReactNative/AppRegistry.js 22:5
+Module parse failed: Unexpected token (22:5)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const renderApplication = require('./renderApplication');
+| 
+> type Task = (taskData: any) => Promise<void>;
+| type TaskProvider = () => Task;
+| /* $FlowFixMe(>=0.90.0 site=react_native_fb) This comment suppresses an
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 211:11-48
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/Button.js 23:12
+Module parse failed: Unexpected token (23:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const invariant = require('invariant');
+| 
+> import type {PressEvent} from '../Types/CoreEventTypes';
+| 
+| type ButtonProps = $ReadOnly<{|
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 29:11-42
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Vibration/Vibration.js 23:14
+Module parse failed: Unexpected token (23:14)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|  */
+| 
+> let _vibrating: boolean = false;
+| let _id: number = 0; // _id is necessary to prevent race condition.
+| 
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 325:11-44
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native-maps/lib/components/MapCalloutSubview.js 23:6
+Module parse failed: Unexpected token (23:6)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|     const AIRMapCalloutSubview = this.getAirComponent();
+|     return (
+>       <AIRMapCalloutSubview
+|         {...this.props}
+|         style={[styles.calloutSubview, this.props.style]}
+ @ ./node_modules/react-native-maps/index.js 16:0-18:47 16:0-18:47
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/StatusBar/StatusBar.js 23:7
+Module parse failed: Unexpected token (23:7)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|  * Status bar style
+|  */
+> export type StatusBarStyle = $Enum<{
+|   /**
+|    * Default status bar style (dark for iOS, light for Android)
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 131:11-55
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/AppleTV/TVEventHandler.js 24:11
+Module parse failed: Unexpected token (24:11)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| 
+| TVEventHandler.prototype.enable = function(
+>   component: ?any,
+|   callback: Function,
+| ) {
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 313:11-58
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Text/Text.js 24:12
+Module parse failed: Unexpected token (24:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const processColor = require('../StyleSheet/processColor');
+| 
+> import type {PressEvent} from '../Types/CoreEventTypes';
+| import type {NativeComponent} from '../Renderer/shims/ReactNative';
+| import type {PressRetentionOffset, TextProps} from './TextProps';
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 145:11-34
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/ReactNative/requireNativeComponent.js 24:47
+Module parse failed: Unexpected token (24:47)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|  *
+|  */
+> const requireNativeComponent = (uiViewClassName: string): string =>
+|   createReactNativeComponentClass(uiViewClassName, () =>
+|     getNativeComponentAttributes(uiViewClassName),
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 351:11-59
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/Touchable/TouchableOpacity.js 26:12
+Module parse failed: Unexpected token (26:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const flattenStyle = require('../../StyleSheet/flattenStyle');
+| 
+> import type {Props as TouchableWithoutFeedbackProps} from './TouchableWithoutFeedback';
+| import type {ViewStyleProp} from '../../StyleSheet/StyleSheet';
+| import type {TVParallaxPropertiesType} from '../AppleTV/TVViewPropTypes';
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 163:11-62
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/Touchable/Touchable.js 26:12
+Module parse failed: Unexpected token (26:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const normalizeColor = require('../../Color/normalizeColor');
+| 
+> import type {PressEvent} from '../../Types/CoreEventTypes';
+| import type {EdgeInsetsProp} from '../../StyleSheet/EdgeInsetsPropType';
+| 
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 154:11-55
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/Touchable/TouchableHighlight.js 27:12
+Module parse failed: Unexpected token (27:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const ensurePositiveDelayProps = require('./ensurePositiveDelayProps');
+| 
+> import type {PressEvent} from '../../Types/CoreEventTypes';
+| import type {ViewStyleProp} from '../../StyleSheet/StyleSheet';
+| import type {ColorValue} from '../../StyleSheet/StyleSheetTypes';
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 157:11-64
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Lists/ListView/ListView.js 27:12
+Module parse failed: Unexpected token (27:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const merge = require('../../vendor/core/merge');
+| 
+> import type {Props as ScrollViewProps} from '../../Components/ScrollView/ScrollView';
+| 
+| const DEFAULT_PAGE_SIZE = 1;
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 74:11-48
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/Clipboard/Clipboard.js 27:13
+Module parse failed: Unexpected token (27:13)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|    * ```
+|    */
+>   getString(): Promise<string> {
+|     return Clipboard.getString();
+|   },
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 232:11-55
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/AppState/AppState.js 28:16
+Module parse failed: Unexpected token (28:16)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|  */
+| class AppState extends NativeEventEmitter {
+>   _eventHandlers: Object;
+|   currentState: ?string;
+|   isAvailable: boolean = true;
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 214:11-42
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native-maps/lib/components/MapCallout.js 28:6
+Module parse failed: Unexpected token (28:6)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|     const AIRMapCallout = this.getAirComponent();
+|     return (
+>       <AIRMapCallout
+|         {...this.props}
+|         style={[styles.callout, this.props.style]}
+ @ ./node_modules/react-native-maps/index.js 15:0-68 15:0-68
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/Touchable/TouchableWithoutFeedback.js 29:12
+Module parse failed: Unexpected token (29:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| } = require('../../DeprecatedPropTypes/DeprecatedViewAccessibility');
+| 
+> import type {SyntheticEvent, LayoutEvent, PressEvent} from '../../Types/CoreEventTypes';
+| import type {EdgeInsetsProp} from '../../StyleSheet/EdgeInsetsPropType';
+| import type {
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 166:11-70
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Utilities/Dimensions.js 29:17
+Module parse failed: Unexpected token (29:17)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|    * @param {object} dims Simple string-keyed object of dimensions to set
+|    */
+>   static set(dims: {[key: string]: any}): void {
+|     // We calculate the window dimensions in JS so that we don't encounter loss of
+|     // precision in transferring the dimensions (which could be non-integers) over
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 241:11-45
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Performance/Systrace.js 29:19
+Module parse failed: Unexpected token (29:19)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const userTimingPolyfill = __DEV__
+|   ? {
+>       mark(markName: string) {
+|         if (_enabled) {
+|           _markStackIndex++;
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 304:11-45
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/PushNotificationIOS/PushNotificationIOS.js 29:7
+Module parse failed: Unexpected token (29:7)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const DEVICE_LOCAL_NOTIF_EVENT = 'localNotificationReceived';
+| 
+> export type ContentAvailable = 1 | null | void;
+| 
+| export type FetchResult = {
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 289:11-64
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Modal/Modal.js 30:12
+Module parse failed: Unexpected token (30:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|     : null;
+| 
+> import type EmitterSubscription from '../vendor/emitter/EmitterSubscription';
+| import type {ViewProps} from '../Components/View/ViewPropTypes';
+| import type {SyntheticEvent} from '../Types/CoreEventTypes';
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 86:11-36
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/ScrollView/ScrollView.js 30:12
+Module parse failed: Unexpected token (30:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const resolveAssetSource = require('../../Image/resolveAssetSource');
+| 
+> import type {PressEvent} from '../../Types/CoreEventTypes';
+| import type {EdgeInsetsProp} from '../../StyleSheet/EdgeInsetsPropType';
+| import type {NativeMethodsMixinType} from '../../Renderer/shims/ReactNativeTypes';
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 104:11-57
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Utilities/deepFreezeAndThrowOnMutationInDev.js 30:42
+Module parse failed: Unexpected token (30:42)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|  * only be used in DEV.
+|  */
+> function deepFreezeAndThrowOnMutationInDev<T: Object>(object: T): T {
+|   if (__DEV__) {
+|     if (
+ @ ./node_modules/react-native/Libraries/UTFSequence.js 13:42-98
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Storage/AsyncStorage.js 31:19
+Module parse failed: Unexpected token (31:19)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|  */
+| const AsyncStorage = {
+>   _getRequests: ([]: Array<any>),
+|   _getKeys: ([]: Array<string>),
+|   _immediate: (null: ?number),
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 223:11-45
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native-maps/lib/components/MapMarker.js 329:6
+Module parse failed: Unexpected token (329:6)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| 
+|     return (
+>       <AIRMapMarker
+|         ref={ref => {
+|           this.marker = ref;
+ @ ./node_modules/react-native-maps/index.js 6:0-51 21:0-27 27:30-36
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Animated/src/AnimatedImplementation.js 32:12
+Module parse failed: Unexpected token (32:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const createAnimatedComponent = require('./createAnimatedComponent');
+| 
+> import type {
+|   AnimationConfig,
+|   EndCallback,
+ @ ./node_modules/react-native/Libraries/Animated/src/Animated.js 17:4-39
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Components/TextInput/TextInput.js 32:12
+Module parse failed: Unexpected token (32:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const warning = require('fbjs/lib/warning');
+| 
+> import type {TextStyleProp, ViewStyleProp} from '../../StyleSheet/StyleSheet';
+| import type {ColorValue} from '../../StyleSheet/StyleSheetTypes';
+| import type {ViewProps} from '../View/ViewPropTypes';
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 148:11-55
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/ReactNative/takeSnapshot.js 32:6
+Module parse failed: Unexpected token (32:6)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|  */
+| module.exports = function takeSnapshot(
+>   view?: 'window' | React$Element<any> | number,
+|   options?: {
+|     width?: number,
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 354:11-49
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Lists/VirtualizedList.js 34:12
+Module parse failed: Unexpected token (34:12)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| const {computeWindowedRenderLimits} = require('./VirtualizeUtils');
+| 
+> import type {ViewStyleProp} from '../StyleSheet/StyleSheet';
+| import type {
+|   ViewabilityConfig,
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 181:11-46
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/CameraRoll/CameraRoll.js 35:7
+Module parse failed: Unexpected token (35:7)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| };
+| 
+> export type GroupTypes = $Keys<typeof GROUP_TYPES_OPTIONS>;
+| 
+| export type GetPhotosParams = {
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 229:11-46
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/ActionSheetIOS/ActionSheetIOS.js 40:11
+Module parse failed: Unexpected token (40:11)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|    */
+|   showActionSheetWithOptions(
+>     options: {|
+|       +title?: ?string,
+|       +message?: ?string,
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 195:11-54
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Linking/Linking.js 41:23
+Module parse failed: Unexpected token (41:23)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|    * See https://facebook.github.io/react-native/docs/linking.html#addeventlistener
+|    */
+>   addEventListener(type: string, handler: Function) {
+|     this.addListener(type, handler);
+|   }
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 265:11-40
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/ReactNative/UIManager.js 41:57
+Module parse failed: Unexpected token (41:57)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| };
+| const triedLoadingConfig = new Set();
+> UIManager.getViewManagerConfig = function(viewManagerName: string) {
+|   if (
+|     viewManagerConfigs[viewManagerName] === undefined &&
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 316:11-46
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native-maps/lib/components/MapLocalTile.js 42:11
+Module parse failed: Unexpected token (42:11)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|   render() {
+|     const AIRMapLocalTile = this.getAirComponent();
+>     return <AIRMapLocalTile {...this.props} />;
+|   }
+| }
+ @ ./node_modules/react-native-maps/index.js 14:0-72 14:0-72
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Image/ImageBackground.js 43:45
+Module parse failed: Unexpected token (43:45)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|  * ```
+|  */
+> class ImageBackground extends React.Component<$FlowFixMeProps> {
+|   setNativeProps(props: Object) {
+|     // Work-around flow
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 47:11-46
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native-maps/lib/components/MapOverlay.js 43:6
+Module parse failed: Unexpected token (43:6)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| 
+|     return (
+>       <AIRMapOverlay
+|         {...this.props}
+|         image={image}
+ @ ./node_modules/react-native-maps/index.js 7:0-53 21:0-27 28:31-38
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Animated/src/Easing.js 64:16
+Module parse failed: Unexpected token (64:16)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|    * A stepping function, returns 1 for any positive value of `n`.
+|    */
+>   static step0(n: number) {
+|     return n > 0 ? 1 : 0;
+|   }
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 244:11-44
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native-maps/lib/components/MapWMSTile.js 66:11
+Module parse failed: Unexpected token (66:11)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|   render() {
+|     const AIRMapWMSTile = this.getAirComponent();
+>     return <AIRMapWMSTile {...this.props} />;
+|   }
+| }
+ @ ./node_modules/react-native-maps/index.js 13:0-68 13:0-68
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native-maps/lib/components/MapUrlTile.js 69:11
+Module parse failed: Unexpected token (69:11)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|   render() {
+|     const AIRMapUrlTile = this.getAirComponent();
+>     return <AIRMapUrlTile {...this.props} />;
+|   }
+| }
+ @ ./node_modules/react-native-maps/index.js 12:0-68 12:0-68
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native/Libraries/Utilities/PixelRatio.js 84:14
+Module parse failed: Unexpected token (84:14)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|    *     - Nexus 6
+|    */
+>   static get(): number {
+|     return Dimensions.get('window').scale;
+|   }
+ @ ./node_modules/react-native/Libraries/react-native/react-native-implementation.js 286:11-45
+ @ ./node_modules/react-native-maps/lib/components/AnimatedRegion.js
+ @ ./node_modules/react-native-maps/index.js
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
+
+ERROR in ./node_modules/react-native-maps/lib/components/MapView.js 969:8
+Module parse failed: Unexpected token (969:8)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|     if (Platform.OS === 'android' && this.props.liteMode) {
+|       return (
+>         <AIRMapLite
+|           ref={ref => {
+|             this.map = ref;
+ @ ./node_modules/react-native-maps/index.js 1:0-5:34 22:0-49 22:0-49 22:0-49 24:31-38 25:32-39 30:15-22
+ @ ./views/map-screen.js
+ @ ./App.js
+ @ multi @babel/polyfill ./App.js
